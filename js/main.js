@@ -1,17 +1,18 @@
-// 댓글 달기 기능 구현
 const postForm = document.querySelector(".feeds__post");
 const postInput = postForm.querySelector("input");
 const postBtn = postForm.querySelector("button");
 const ul = document.querySelector(".feeds__commentList");
 
+
+//댓글 삭제 기능
 function delComment(event) {
     const btn = event.target;
     const div = btn.parentNode;
     const li = div.parentNode;
     ul.removeChild(li)
-
 }
 
+//댓글 올리기
 function post(currentValue) {
     const id = document.createElement("span");
     const content = document.createElement("span");

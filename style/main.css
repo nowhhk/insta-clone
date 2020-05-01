@@ -204,15 +204,12 @@ input:focus {
 .main-right__header .profile-icon {
     width: 50px;
     margin-right: 10px;
-
 }
 
 .main-right__part .profile-icon {
     width: 40px;
     margin-right: 10px;
 }
-
-.section1 .profile-icon {}
 
 .main-right__part {
     border: 1px solid #DBDBDB;
