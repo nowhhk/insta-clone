@@ -20,7 +20,6 @@ nav .logo1 {
     padding-right: 15px;
 }
 
-
 nav .logo2 {
     height: 32px;
     width: 106px;
@@ -35,10 +34,6 @@ nav input {
 
 .nav__column-icon img {
     margin-left: 15px;
-}
-
-.nav__column-icon img:nth-child(1) {
-    margin-left: 0px;
 }
 
 main {
@@ -81,7 +76,6 @@ main {
 .feeds__header-column {
     display: flex;
     align-items: center;
-
 }
 
 .feeds__img {
@@ -100,7 +94,6 @@ main {
 
 .feeds__icons-column .left {
     margin-right: 5px;
-
 }
 
 
@@ -150,6 +143,7 @@ main {
 .feeds__comment {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 4px;
 }
 
@@ -168,7 +162,7 @@ main {
 
 .feeds__post input {
     border: none;
-
+    width: 90%;
 }
 
 
@@ -178,11 +172,14 @@ main {
     font: inherit;
 }
 
-/*button,
+button {
+    cursor: pointer;
+}
+
+button,
 input:focus {
     outline: none;
-    cursor: pointer;
-}*/
+}
 
 .feeds__bottom {
     padding: 11px;
@@ -232,8 +229,6 @@ input:focus {
     overflow: scroll;
     height: 90%;
 }
-
-
 
 .section1 .main-right__part-contents::-webkit-scrollbar,
 .section2 .main-right__part-contents::-webkit-scrollbar {
@@ -290,4 +285,16 @@ input:focus {
 .part2 {
     display: flex;
     justify-content: space-between;
+}
+
+.delBtn {
+    border: none;
+    color: #0095f6;
+}
+
+
+@media (max-width : 980px) {
+    .main-right {
+        display: none;
+    }
 }
