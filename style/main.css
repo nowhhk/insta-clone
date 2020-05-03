@@ -29,7 +29,12 @@ nav .logo2 {
 
 nav input {
     text-align: center;
+    padding: 5px;
     width: 200px;
+}
+
+nav input:focus {
+    text-align: left;
 }
 
 .nav__column-icon img {
@@ -208,7 +213,18 @@ input:focus {
 
 .main-right__part .profile-icon {
     width: 40px;
-    margin-right: 10px;
+    border: 2px solid white;
+}
+
+.main-right .story-line {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgba(255, 0, 132, 1) 0%, rgba(235, 231, 0, 1) 0%, rgba(255, 0, 132, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
 }
 
 .main-right__part {
